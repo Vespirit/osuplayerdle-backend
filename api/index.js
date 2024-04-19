@@ -42,3 +42,5 @@ app.get("/players/:username", async (req, res) => {
 app.listen(process.env.PORT || 3001, () => {
     console.log("Listening on port", process.env.PORT || 3001);
 });
+
+module.exports = app;
